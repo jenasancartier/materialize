@@ -1,11 +1,38 @@
 /*Universal Selectors****************/
-/*body {
-  background-image: url('./img/hero.jpg');
-}*/
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
 
 /*Class Selectors********************/
+.brand-logo {
+  font-family: 'Comfortaa', cursive;
+  margin-left: 25px;
+}
+
+.card-title {
+  font-family: 'Comfortaa', cursive;
+}
+
 .parallax-container {
   height: 400px;
+}
+
+.jumbo-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: 'Comfortaa', cursive;
 }
 
 .scrollspy {
@@ -36,22 +63,40 @@
   padding-top: 40px;
 }
 
-/*.hero-relative {
-  position: relative;
+.card {
+  background-color: #ee6e73 !important;
+  text-align: center;
 }
 
-.hero-absolute {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1 !important;
-}*/
+.l7 {
+  text-align: right;
+}
 
+.l7 p {
+  padding-left: 150px;
+}
 
+.l7 h3 {
+  color: #ee6e73;
+}
 
+.tent-block {
+  background-color: #efefef;
+}
 
 /*Id Selectors***********************/
+ #rover, #scope h4 {
+  margin-top: 30px;
+ }
 
+ #tent {
+   text-align: left;
+ }
+
+ #tent p {
+   padding-left: 0;
+   padding-right: 150px;
+ }
 
 
 /*Media Queries**********************/
