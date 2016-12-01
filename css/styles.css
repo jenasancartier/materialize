@@ -1,0 +1,30 @@
+/*Universal Selectors****************/
+/*body {
+  background-image: url('./img/hero.jpg');
+}*/
+
+
+/*Class Selectors********************/
+.parallax-container {
+  height: 800px;
+}
+
+/*.hero-relative {
+  position: relative;
+}
+
+.hero-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1 !important;
+}*/
+
+
+
+
+/*Id Selectors***********************/
+
+
+
+/*Media Queries**********************/
