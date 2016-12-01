@@ -3,10 +3,37 @@
   background-image: url('./img/hero.jpg');
 }*/
 
-
 /*Class Selectors********************/
 .parallax-container {
+  height: 400px;
+}
+
+.scrollspy {
+  height: 200px;
+}
+
+.bottom {
   height: 800px;
+}
+
+.one img {
+  width: 100vw;
+}
+
+.two img {
+  width: 100vw;
+  overflow: auto;
+}
+
+.section {
+  height: 500px;
+  /*overflow: auto;*/
+}
+
+.icons {
+  display: block;
+  margin: auto;
+  padding-top: 40px;
 }
 
 /*.hero-relative {
@@ -28,3 +55,14 @@
 
 
 /*Media Queries**********************/
+@media only screen and (max-width: 562px) {
+  .section {
+    height: 1070px;
+  }
+}
+
+/*@media only screen and (max-width: 666px) and (min-width: 563px){
+  .section {
+    height: 600px;
+  }
+}*/
