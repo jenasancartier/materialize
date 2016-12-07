@@ -21,7 +21,7 @@ _This app shows our practice working with Materialize elements such as Paralax, 
 
 
 ### Support & Contact
-For questions or comments, please __email [Jena}(jenasancartier@gmail.com) or [Kyle](baronsintrees@gmail.com)__
+For questions or comments, please __email [Jena](jenasancartier@gmail.com) or [Kyle](baronsintrees@gmail.com)__
 
 ### Known Issues
 _Breakpoints needed for out-of-grid unresponsive elements_
